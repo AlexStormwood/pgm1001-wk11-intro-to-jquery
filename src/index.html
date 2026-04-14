@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Script tags in head get loaded before HTML is rendered -->
+	<!-- Might cause problems for us, might be better in body! -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Example heading </h1>
+	<main>
+		<h2>Contact</h2>
+		<button>Click here to contact us!</button>
+		<!-- Form will be toggled on and off on button click -->
+		<form>
+			<input type="text" name="contactMessage" id="contactMessage">
+			<button type="submit">Send message!</button>
+		</form>
+	</main>
+
+	<!-- Script tags in body get loaded in line-by-line order -->
+	<!-- So scripts should be after all rendered HTML! -->
+	<!-- <script src=""></script> -->
+	<script src="./index.js"></script>
+</body>
+</html>
