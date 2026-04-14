@@ -9,3 +9,19 @@ $(document).ready(function () {
 		$("form").toggle();
 	});
 });
+
+// // Find the contact us button
+// let contactUsButton = document.getElementsByClassName("toggleButton")[0];
+// // Add event listener to the contact us button 
+// contactUsButton.addEventListener("click", () => {
+// 	// Find the form 
+// 	let formToToggle = document.querySelector("form");
+
+// 	// Toggle the form 
+// 	if (formToToggle.style.display != "none") {
+// 		formToToggle.style.display = "none";
+// 	} else {
+// 		formToToggle.style.display = "block";
+// 	}
+// });
+
