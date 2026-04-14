@@ -7,12 +7,13 @@
 	<!-- Script tags in head get loaded before HTML is rendered -->
 	<!-- Might cause problems for us, might be better in body! -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	<h1>Example heading </h1>
 	<main>
 		<h2>Contact</h2>
-		<button>Click here to contact us!</button>
+		<button class="toggleButton">Click here to contact us!</button>
 		<!-- Form will be toggled on and off on button click -->
 		<form>
 			<input type="text" name="contactMessage" id="contactMessage">
